@@ -1,0 +1,4 @@
+development:
+  api_key: "你的 12306火车票查询 聚合数据 api key"
+production:
+  api_key: "之后布署上production的话，key放这里"

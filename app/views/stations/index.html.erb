@@ -1,0 +1,14 @@
+<table class="table">
+<tr>
+  <th>车站名称</th>
+  <th>车站名称（en）</th>
+  <th>车站代码</th>
+</tr>
+<% @stations.each do |station| %>
+  <tr>
+    <td><%= station.sta_name %></td>
+    <td><%= station.sta_enname %></td>
+    <td><%= station.sta_code %></td>
+  </tr>
+<% end %>
+</table>

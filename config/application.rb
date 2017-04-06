@@ -16,3 +16,4 @@ end
 
 
 JUHE_CONFIG = Rails.application.config_for(:juhe)
+STATION_CONFIG = Rails.application.config_for(:station)
