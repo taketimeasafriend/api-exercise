@@ -7,5 +7,6 @@ class CreateStations < ActiveRecord::Migration[5.0]
 
       t.timestamps
     end
+    add_index :stations, :sta_name
   end
 end
